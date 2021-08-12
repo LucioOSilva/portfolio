@@ -1,6 +1,6 @@
 {
   "homepage": "http://lucioosilva.github.io/portfolio",
-  "name": "lucioosilva.io-backend",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
