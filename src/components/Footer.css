@@ -1,0 +1,17 @@
+.footer {
+  align-items: center;
+  background-color: var(--color-main);
+  color: var(--color-letter);
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  padding: var(--section-padding);
+  
+}
+
+@media only screen and (max-width: 630px) {
+  .footer {
+    height: 6vh;
+    text-align: center;
+  }
+}

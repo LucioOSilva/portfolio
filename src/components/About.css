@@ -1,0 +1,35 @@
+.icon {
+  color: var(--color-highlight);
+  height: 30%;
+}
+
+.sectionAbout {
+  align-items: center;
+  display: flex;
+  height: 30vh;
+  justify-items: center;
+  justify-content: space-around;
+  padding: var(--section-padding);
+}
+
+.subSectionAbout {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.textAbout-sml {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionAbout {
+    height: 42vh;
+  }
+}
+  

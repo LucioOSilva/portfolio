@@ -1,0 +1,65 @@
+.icon {
+  color: var(--color-highlight);
+  height: 30%;
+}
+
+.sectionPortfolio {
+  align-items: center;
+  display: flex;
+  height: 25vh;
+  justify-items: center;
+  justify-content: space-around;
+  padding: var(--section-padding);
+}
+
+.subSectionPortfolio {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(222, 222, 222, 0.3);
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.subSectionPortfolio:hover {
+  box-shadow: 0 0 10px 2px rgba(132, 0, 255, 0.2);
+}
+
+.subSectionPortfolio:active {
+  
+  background-color: rgba(146, 117, 163, 0.3);
+}
+
+.textPortfolio-title {
+  font-size: 18px;
+  z-index: -1;
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+  .subSectionPortfolio {
+    margin: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 920px) {
+  .sectionPortfolio {
+    flex-flow: column;
+    height: 45vh;
+  }
+
+  .subSectionPortfolio {
+    margin: 5px;
+  }
+
+  .textPortfolio-title {
+    position: relative;
+    top: 15px
+  }
+}
+
