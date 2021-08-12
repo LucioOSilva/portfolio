@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import mypic from '../assets/my-pic.png';
 
 class Home extends React.Component {
   render() { 
@@ -13,7 +14,7 @@ class Home extends React.Component {
           <button className="btnContact"><a className="btnLink" href="#contact">Contact me</a></button>
         </div>
         <div className="subSectionHome-2">
-          <img alt="mypic" src="%PUBLIC_URL%/assets/my-pic.png" className="mypic"/>
+          <img alt="mypic" src={mypic} className="mypic"/>
         </div>
       </section>
     );
