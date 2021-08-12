@@ -1,8 +1,8 @@
 import React from 'react';
-import SinglePage from './pages/SinglePage';
+import Home from './pages/Home';
 function App() {
   return (
-      <SinglePage/>
+      <Home/>
   );
 }
 

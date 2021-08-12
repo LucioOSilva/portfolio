@@ -1,18 +1,18 @@
 import React from 'react';
 import Navbar from '../components/NavBar/Navbar';
-import Home from '../components/Home';
+import Hero from '../components/Hero';
 import About from '../components/About';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import './SinglePage.css';
+import './Home.css';
 
 require('dotenv/config');
 
 
 const envURL = process.env.REACT_APP_BACKEND_URL;
 
-class SinglePage extends React.Component {
+class Home extends React.Component {
   constructor(props) {
     super(props)
     this.state = {};
@@ -38,7 +38,7 @@ class SinglePage extends React.Component {
     return (
       <div>
         <Navbar/>
-        <Home/>
+        <Hero/>
         <About/>
         <Portfolio/>
         <Contact/>
@@ -48,4 +48,4 @@ class SinglePage extends React.Component {
   }
 }
  
-export default SinglePage;
+export default Home;

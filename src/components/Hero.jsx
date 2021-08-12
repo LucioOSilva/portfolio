@@ -1,8 +1,8 @@
 import React from 'react';
-import './Home.css';
+import './Hero.css';
 import mypic from '../assets/my-pic.png';
 
-class Home extends React.Component {
+class Hero extends React.Component {
   render() { 
     return (
       <section id="home" className="sectionHome">
@@ -21,4 +21,4 @@ class Home extends React.Component {
   }
 }
  
-export default Home;
+export default Hero;
