@@ -101,7 +101,9 @@ class Contact extends React.Component {
     try {
       const response = await this.fetchSubmit();
       if (response.message){
-        setTimeout(() => {this.setState({ emailStatusMessage: response.message });}, 1000);
+        setTimeout(() => {this.setState({
+          emailStatusMessage: (response.message === 'invalid token') ? 'type your name again please!' : response.message
+        });}, 1000);
         setTimeout(() => {this.setState({
           isSendingEmail: false,
           emailStatusMessage: 'Sending your email! 📨'

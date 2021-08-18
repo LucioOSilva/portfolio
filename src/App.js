@@ -1,8 +1,18 @@
 import React from 'react';
-import SinglePage from './pages/SinglePage';
+import { Home, NotFound,/* ProjectsBack, ProjectsFront,*/ UnderConstruction } from './pages';
+import { Route, Switch } from 'react-router-dom';
+
 function App() {
   return (
-      <SinglePage/>
+    <div>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/portfolio" component={Home}/>
+        <Route path="/frontend" component={UnderConstruction}/>
+        <Route path="/backend" component={UnderConstruction}/>
+        <Route component={NotFound}/>
+      </Switch>
+    </div>
   );
 }
 

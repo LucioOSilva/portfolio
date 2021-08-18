@@ -1,7 +1,8 @@
 import React from 'react';
-import './Home.css';
+import './Hero.css';
+import mypic from '../assets/my-pic.png';
 
-class Home extends React.Component {
+class Hero extends React.Component {
   render() { 
     return (
       <section id="home" className="sectionHome">
@@ -10,14 +11,14 @@ class Home extends React.Component {
           <p className="textHome-big">I Am A FullStack</p>
           <p className="textHome-big">Web Developer</p>
           <p className="textHome-xsml">From Belo Horizonte.</p>
-          <button className="btnContact">Contact me</button>
+          <button className="btnContact"><a className="btnLink" href="#contact">Contact me</a></button>
         </div>
         <div className="subSectionHome-2">
-          <img alt="mypic" src="./assets/my-pic.png" className="mypic"/>
+          <img alt="mypic" src={mypic} className="mypic"/>
         </div>
       </section>
     );
   }
 }
  
-export default Home;
+export default Hero;
