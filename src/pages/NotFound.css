@@ -1,0 +1,14 @@
+.link {
+  padding: 0;
+}
+
+.pageNF {
+  color: var(--color-main);
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: var(--color-letter);
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, NotFound, ProjectsBack, ProjectsFront } from './pages';
+import { Home, NotFound,/* ProjectsBack, ProjectsFront,*/ UnderConstruction } from './pages';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/portfolio" component={Home}/>
-        <Route path="/frontend" component={ProjectsFront}/>
-        <Route path="/backend" component={ProjectsBack}/>
+        <Route path="/frontend" component={UnderConstruction}/>
+        <Route path="/backend" component={UnderConstruction}/>
         <Route component={NotFound}/>
       </Switch>
     </div>
