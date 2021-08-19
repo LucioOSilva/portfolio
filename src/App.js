@@ -10,6 +10,7 @@ function App() {
         <Route path="/portfolio" component={Home}/>
         <Route path="/frontend" component={UnderConstruction}/>
         <Route path="/backend" component={UnderConstruction}/>
+        <Route path="/others" component={UnderConstruction}/>
         <Route component={NotFound}/>
       </Switch>
     </div>
