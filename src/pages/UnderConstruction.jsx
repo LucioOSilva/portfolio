@@ -1,5 +1,5 @@
 import React from 'react';
-import constructionImg from '../assets/underConstruction.png';
+import constructionImg from '../assets/uc-pic.png';
 import Footer from '../components/Footer';
 import './UnderConstruction.css';
 
