@@ -7,8 +7,10 @@ class UnderConstruction extends React.Component {
   render() { 
     return (
       <div className="page">
-        <h1>This page is under construction</h1>
-        <h3>Hope you comeback soon!</h3>
+        <div className="titlebox">
+          <h1>This page is under construction</h1>
+          <h3>Hope you comeback soon!</h3>
+        </div>
         <div className="imagebox">
           <img alt="mypic" src={constructionImg} className="image"/>
         </div>
