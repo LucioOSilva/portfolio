@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    :root {
+      --section-height: 70vh;
+      --section-width: 70vw;
+      --section-padding: 0 15vw;
+      --color-main: rgb(77, 88, 185);
+      --color-letter: antiquewhite;
+      --color-letter-sencondary: rgb(66, 66, 66);
+      --color-highlight: crimson;
+    }
+
+    .link {
+      padding: 0;
+    }
+
+    .pageNF {
+      color: var(--color-main);
+      height: 95vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      background-color: var(--color-letter);
+    }
+
+    .btnContact {
+      background-color: crimson;
+      border-radius: 5px;
+      border: 1px solid rgb(177, 119, 211);
+      color: var(--color-letter);
+      font-size: 16px;
+      height: 50px;
+      margin-top: 30px;
+      transition: 0.3s;
+      width: 200px;
+    }
+
+    .btnContact:hover {
+      box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+
+    .btnContact:active {
+      background-color: rgb(180, 180, 180);
+    }
+
+    .btnLink {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      padding: 0;
+      width: 100%;
+    }
+  </style>
+  <title>Lucio Silva Portfolio</title>
+</head>
+<body>
+  <div class="pageNF">
+    <div>
+      <h1>OPS!</h1>
+      <h3>Page NOT FOUND</h3>
+      <Link to="/" class="btnLink"><button class="btnContact">Voltar a pagina principal</button></Link>
+    </div>
+  </div>
+</body>
+</html>
