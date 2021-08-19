@@ -1,7 +1,9 @@
 .page {
   background-color: var(--color-letter);
   color: var(--color-main);
-  height: 95vh;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
   text-align: center;
 }
 
@@ -13,7 +15,22 @@
 
 .imagebox {
   background-color: var(--color-letter);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
+  width: 100vw;
+}
+
+.titlebox {
+  background-color: var(--color-letter);
+  width: 100vw;
+}
+
+@media only screen and (max-width: 620px) {
+  .image {
+    height: 70%;
+  }
 }
 
 

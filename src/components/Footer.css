@@ -6,7 +6,7 @@
   height: 5vh;
   justify-content: center;
   padding: var(--section-padding);
-  
+  width: 100vw;
 }
 
 @media only screen and (max-width: 630px) {
